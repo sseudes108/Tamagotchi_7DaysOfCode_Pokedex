@@ -1,6 +1,6 @@
-﻿using Tomagochi7DaysOfCode.Menus;
+﻿using Tomagochi.Menus;
 
-namespace Tomagochi7DaysOfCode{
+namespace Tomagochi{
     internal class MainMenu{
         public static void Show(){
             Menu.MenuHeader("Menu Principal");

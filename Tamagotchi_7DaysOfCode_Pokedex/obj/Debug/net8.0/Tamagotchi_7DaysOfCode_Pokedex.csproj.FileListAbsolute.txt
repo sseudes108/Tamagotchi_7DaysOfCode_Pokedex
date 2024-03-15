@@ -16,3 +16,4 @@ E:\Documents\source\repos\Tamagotchi_7DaysOfCode_Pokedex\Tamagotchi_7DaysOfCode_
 E:\Documents\source\repos\Tamagotchi_7DaysOfCode_Pokedex\Tamagotchi_7DaysOfCode_Pokedex\obj\Debug\net8.0\Tamagotchi_7DaysOfCode_Pokedex.pdb
 E:\Documents\source\repos\Tamagotchi_7DaysOfCode_Pokedex\Tamagotchi_7DaysOfCode_Pokedex\obj\Debug\net8.0\Tamagotchi_7DaysOfCode_Pokedex.genruntimeconfig.cache
 E:\Documents\source\repos\Tamagotchi_7DaysOfCode_Pokedex\Tamagotchi_7DaysOfCode_Pokedex\obj\Debug\net8.0\ref\Tamagotchi_7DaysOfCode_Pokedex.dll
+E:\Documents\source\repos\Tamagotchi_7DaysOfCode_Pokedex\Tamagotchi_7DaysOfCode_Pokedex\obj\Debug\net8.0\Tamagotchi_7DaysOfCode_Pokedex.sourcelink.json

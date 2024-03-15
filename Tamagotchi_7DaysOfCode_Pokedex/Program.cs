@@ -1,3 +1,3 @@
-﻿using Tomagochi7DaysOfCode;
+﻿using Tomagochi;
 
 MainMenu.Show();

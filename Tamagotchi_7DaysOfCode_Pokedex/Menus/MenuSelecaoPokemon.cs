@@ -1,4 +1,4 @@
-﻿namespace Tomagochi7DaysOfCode.Menus;
+﻿namespace Tomagochi.Menus;
 
 internal class MenuSelecaoPokemon{
 
