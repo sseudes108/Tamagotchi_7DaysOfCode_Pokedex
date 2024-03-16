@@ -1,43 +1,43 @@
-﻿using Tomagochi.Menus;
-
-namespace Tomagochi{
+﻿namespace Tomagochi.Menus;
     internal class MainMenu{
-        public static void Show(){
-            Menu.MenuHeader("Menu Principal");
-            Console.WriteLine("1 - Pokédex");
-            Console.WriteLine("2 - Selecionar Pokémon");
-            Console.WriteLine("0 - Sair");
-            Menu.Linha();
+        static string? _nome;
+        public static void Show(string nome){
+            _nome = nome;
+            MenuLib.MenuHeader("Menu");
 
-            var entrada = Menu.ReceberSelecao();
+            Console.WriteLine($"{_nome}, o que você deseja fazer?");
+            Console.WriteLine($" ");
 
-            switch(entrada)
-            {
+            MenuLib.MenuItem("1 - Adotar Um Mascote Virtual");
+            MenuLib.MenuItem("2 - Ver Seus Mascotes");
+            MenuLib.MenuItem("3 - Pokédex");
+            MenuLib.MenuItem("0 - Sair");
+
+            MenuLib.Linha();
+
+            var selecao = MenuLib.ReceberSelecao();
+
+            switch(selecao){
                 case 1:
-                    var inputPokemon = Dex.PegarNomeDoPokemon();
-                    Dex.MonstrarPokemonInfo(inputPokemon);
-                    RemostrarMenu();
+                    Adotar.Show(_nome);
                 break;
 
                 case 2:
-                    MenuSelecaoPokemon.Show();
+                break;
+
+                case 3:
+                    MenuLib.MenuHeader("Pokédex");
+                    
+                    var pokemonName = Dex.PegarNomeDoPokemon();
+                    var pokemon = Dex.PegarPokemonInfo(pokemonName);
+                    Dex.EscreverPokemonInfo(pokemon);
+
+                    MenuLib.RetornarAoMenuInicial(_nome);
                 break;
 
                 case 0:
-                    Environment.Exit(0);
-                break;
-
-                default:
-                    Show();
+                    MenuLib.Sair(_nome);
                 break;
             }
         }
-        private static void RemostrarMenu()
-        {
-            Thread.Sleep(1500);
-            Console.WriteLine("Pressione qualquer tecla...");
-            Console.ReadKey();
-            Show();
-        }
     }
-}

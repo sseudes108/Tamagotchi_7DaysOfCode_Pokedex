@@ -4,7 +4,7 @@
         {
             Console.Clear();
             Console.WriteLine(menuName);
-            Console.WriteLine("------------------------");
+            Linha();
         }
 
         public static int ReceberSelecao()
