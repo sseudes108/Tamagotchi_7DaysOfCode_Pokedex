@@ -2,13 +2,13 @@ using System.Globalization;
 
 namespace Tomagochi.Menus;
 
-internal class MenuLib{
-    public static void MenuHeader(string nomeMenu){
+internal class TomagochiLib{
+    public static void Header(string nomeHeader){
         Console.Clear();
-        var tamanhodText = nomeMenu.Length;
+        var tamanhoText = nomeHeader.Length;
 
         var maxHifens = 50;
-        var maxMenosTexto = maxHifens - tamanhodText;
+        var maxMenosTexto = maxHifens - tamanhoText;
         var maxCadaLado = maxMenosTexto / 2;
 
         //contador dos "Hifens"
@@ -20,9 +20,9 @@ internal class MenuLib{
             hif++;
         }while(hif < maxCadaLado);
 
-        //Nome do Menu
+        //Nome do header
         Console.Write(" ");
-        Console.Write(nomeMenu);
+        Console.Write(nomeHeader);
         Console.Write(" ");
 
         //completa a linha até o caracter designado
@@ -43,10 +43,9 @@ internal class MenuLib{
     }
 
     public static string EntradaTexto(){
-        CultureInfo culture = CultureInfo.CurrentCulture;
         Console.WriteLine("Qual é o seu nome?");
         var nome = Console.ReadLine();
-        var nomeTitleCase = culture.TextInfo.ToTitleCase(nome);
+        var nomeTitleCase = TitleCase(nome);
         return nomeTitleCase;
     }
 
@@ -65,12 +64,14 @@ internal class MenuLib{
     public static void MenuItem(string nomeDoItem){
         Console.WriteLine(nomeDoItem);
     }
+    
     public static void RetornarAoMenuInicial(string nome){
         Thread.Sleep(3000);
-        Console.WriteLine("Pressione qualquer tecla para retornar ao menu inicial....");
-        Console.ReadLine();
+        Console.WriteLine("Pressione qualquer tecla para retornar ao menu inicial...");
+        Console.ReadKey();
         MainMenu.Show(nome);
     }
+   
     public static void Sair(string nome){
         Console.WriteLine($"Adeus, {nome}.");
         Thread.Sleep(3000);

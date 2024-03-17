@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Tamagotchi_7DaysOfCode_Pokedex")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+894655a13f20add4665a6b95888cc458ef625dba")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b238e6845373c2b35c2264e930545ae054dfd83f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Tamagotchi_7DaysOfCode_Pokedex")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Tamagotchi_7DaysOfCode_Pokedex")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

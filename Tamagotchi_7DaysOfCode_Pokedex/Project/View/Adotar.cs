@@ -5,17 +5,21 @@ internal class Adotar{
     static string? _pokemon;
     public static void Show(string nome){
         _nome = nome;
-        MenuLib.MenuHeader("Adotar Um Mascote");
+        TomagochiLib.Header("Adotar Um Mascote");
 
         Console.WriteLine($"{_nome}, escolha uma Espécie:");
-        MenuLib.MenuItem("1 - Staryu");
-        MenuLib.MenuItem("2 - Zubat");
-        MenuLib.MenuItem("3 - Abra");
-        MenuLib.MenuItem("0 - Voltar");
+        Console.WriteLine($" ");
 
-        MenuLib.Linha();
+        TomagochiLib.MenuItem("1 - Staryu");
+        TomagochiLib.MenuItem("2 - Zubat");
+        TomagochiLib.MenuItem("3 - Abra");
+        Console.WriteLine($" ");
 
-        var selecao = MenuLib.ReceberSelecao();
+        TomagochiLib.MenuItem("0 - Voltar");
+
+        TomagochiLib.Linha();
+
+        var selecao = TomagochiLib.ReceberSelecao();
 
         switch(selecao){
             case 1:
@@ -38,17 +42,21 @@ internal class Adotar{
 
     public static void PokemonSelecionado(){
         Console.Clear();
-        MenuLib.Linha();
+        TomagochiLib.Linha();
 
         Console.WriteLine($"{_nome}, O que deseja?:");
-        MenuLib.MenuItem($"1 - Saber mais sobre {_pokemon}");
-        MenuLib.MenuItem($"2 - Adotar {_pokemon}");
-        MenuLib.MenuItem($"3 - Voltar");
+        Console.WriteLine($" ");
 
-        MenuLib.Linha();
+        TomagochiLib.MenuItem($"1 - Saber mais sobre {_pokemon}");
+        TomagochiLib.MenuItem($"2 - Adotar {_pokemon}");
+        Console.WriteLine($" ");
+        
+        TomagochiLib.MenuItem($"3 - Voltar");
+
+        TomagochiLib.Linha();
 
 
-        var selecao = MenuLib.ReceberSelecao();
+        var selecao = TomagochiLib.ReceberSelecao();
 
         switch(selecao){
             case 1:
@@ -72,10 +80,9 @@ internal class Adotar{
             break;
         }
     }
-    public static void AdotarPokemon()
-    {
+    public static void AdotarPokemon(){
         Console.Clear();
-        MenuLib.Linha();
+        TomagochiLib.Linha();
 
         Console.WriteLine($"{_nome}, {_pokemon} adotado com sucesso. Seu ovo está chocando");
         Console.WriteLine(@"              
@@ -100,8 +107,8 @@ internal class Adotar{
                  ..:......:..=.:.:...              
         ");
 
-        MenuLib.Linha();
+        TomagochiLib.Linha();
 
-        MenuLib.RetornarAoMenuInicial(_nome);
+        TomagochiLib.RetornarAoMenuInicial(_nome);
     }
 }
