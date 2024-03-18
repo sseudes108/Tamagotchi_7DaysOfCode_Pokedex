@@ -6,7 +6,7 @@ using Tomagochi.Model;
 namespace Tomagochi;
 internal class Dex{
     public static string PegarNomeDoPokemon(){
-        Console.Clear();
+        TomagochiLib.LimparTela();
         Console.WriteLine("Qual o nome do Pokemon que deseja informações?");
         var pokemon = Console.ReadLine();
         return pokemon.ToLower();
@@ -53,7 +53,7 @@ internal class Dex{
             }
         }
         Console.Write($".");
-        Console.WriteLine(" ");
+        TomagochiLib.PularLinha();
 
 
         Console.WriteLine($"Altura: {(float)pokemon.Height / 10} m.");

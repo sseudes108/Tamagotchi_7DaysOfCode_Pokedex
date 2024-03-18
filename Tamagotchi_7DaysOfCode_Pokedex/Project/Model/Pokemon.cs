@@ -5,6 +5,10 @@
         public Types[]? Types { get; set; }
         public int Height { get; set; }
         public int Weight { get; set; }
+
+        public int Alimentacao { get; set; }
+        public int Humor { get; set; }
+        public int Sono { get; set; }
     }
 
     public class Ability{

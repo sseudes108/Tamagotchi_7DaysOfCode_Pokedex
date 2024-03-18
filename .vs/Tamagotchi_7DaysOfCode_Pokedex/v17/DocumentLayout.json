@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\model\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\model\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\project\\view\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\project\\view\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\menus\\mainmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\project\\view\\adotar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\project\\view\\adotar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\project\\model\\mascotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\project\\model\\mascotes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\project\\model\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\project\\model\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\project\\controller\\dex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\project\\controller\\dex.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|e:\\documents\\source\\repos\\tamagotchi_7daysofcode_pokedex\\tamagotchi_7daysofcode_pokedex\\project\\libs\\tomagochilib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F32B419-F7FC-4B4F-80E2-8D9BD2252576}|Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex.csproj|solutionrelative:tamagotchi_7daysofcode_pokedex\\project\\libs\\tomagochilib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Pokemon.cs",
-              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Model\\Pokemon.cs",
-              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Model\\Pokemon.cs",
-              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Model\\Pokemon.cs",
-              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Model\\Pokemon.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAZAAAA",
+              "DocumentIndex": 4,
+              "Title": "Dex.cs",
+              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Controller\\Dex.cs",
+              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Controller\\Dex.cs",
+              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Controller\\Dex.cs",
+              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Controller\\Dex.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAwDoAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T02:12:30.705Z",
+              "WhenOpened": "2024-03-18T12:47:57.629Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TomagochiLib.cs",
+              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Libs\\TomagochiLib.cs",
+              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Libs\\TomagochiLib.cs",
+              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Libs\\TomagochiLib.cs",
+              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Libs\\TomagochiLib.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAYwEMAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:45:14.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainMenu.cs",
+              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\MainMenu.cs",
+              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\MainMenu.cs",
+              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\MainMenu.cs",
+              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\MainMenu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:37:20.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pokemon.cs",
+              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Pokemon.cs",
+              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Pokemon.cs",
+              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Pokemon.cs",
+              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Pokemon.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-18T12:35:08.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MainMenu.cs",
-              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Menus\\MainMenu.cs",
-              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Menus\\MainMenu.cs",
-              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Menus\\MainMenu.cs",
-              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Menus\\MainMenu.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Title": "Adotar.cs",
+              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\Adotar.cs",
+              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\Adotar.cs",
+              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\Adotar.cs",
+              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\View\\Adotar.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAAAgwGQAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T02:11:19.374Z",
+              "WhenOpened": "2024-03-18T12:33:58.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Program.cs",
-              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Program.cs",
-              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Program.cs",
-              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAQAAAA",
+              "Title": "Mascotes.cs",
+              "DocumentMoniker": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Mascotes.cs",
+              "RelativeDocumentMoniker": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Mascotes.cs",
+              "ToolTip": "E:\\Documents\\source\\repos\\Tamagotchi_7DaysOfCode_Pokedex\\Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Mascotes.cs",
+              "RelativeToolTip": "Tamagotchi_7DaysOfCode_Pokedex\\Project\\Model\\Mascotes.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-15T02:08:42.368Z",
+              "WhenOpened": "2024-03-18T12:37:45.826Z",
               "EditorCaption": ""
             }
           ]

@@ -1,3 +1,5 @@
+using Tomagochi.Model;
+
 namespace Tomagochi.Menus;
 
 internal class Adotar{
@@ -41,7 +43,9 @@ internal class Adotar{
     }
 
     public static void PokemonSelecionado(){
-        Console.Clear();
+        Pokemon pokemon = Dex.PegarPokemonInfo(_pokemon);
+        
+        TomagochiLib.LimparTela();
         TomagochiLib.Linha();
 
         Console.WriteLine($"{_nome}, O que deseja?:");
@@ -60,19 +64,17 @@ internal class Adotar{
 
         switch(selecao){
             case 1:
-                Console.Clear();
-
-                var pokemon = Dex.PegarPokemonInfo(_pokemon);
+                TomagochiLib.LimparTela();
                 Dex.EscreverPokemonInfo(pokemon);
 
-                Console.WriteLine(" ");
+                TomagochiLib.PularLinha();
                 Console.WriteLine("\nPressione qualquer tecla para retornar...");
                 Console.ReadKey();
                 PokemonSelecionado();
             break;
 
             case 2:
-                AdotarPokemon();
+                AdotarPokemon(pokemon);
             break;
 
             case 3:
@@ -80,8 +82,8 @@ internal class Adotar{
             break;
         }
     }
-    public static void AdotarPokemon(){
-        Console.Clear();
+    public static void AdotarPokemon(Pokemon pokemon){
+        TomagochiLib.LimparTela();
         TomagochiLib.Linha();
 
         Console.WriteLine($"{_nome}, {_pokemon} adotado com sucesso. Seu ovo está chocando");
@@ -109,6 +111,9 @@ internal class Adotar{
 
         TomagochiLib.Linha();
 
+        Console.WriteLine("Chocando...");
+        Thread.Sleep(5000);
+        Mascotes.AddMascote(pokemon);
         TomagochiLib.RetornarAoMenuInicial(_nome);
     }
 }

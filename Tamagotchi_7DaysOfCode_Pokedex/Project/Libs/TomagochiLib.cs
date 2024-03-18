@@ -4,7 +4,7 @@ namespace Tomagochi.Menus;
 
 internal class TomagochiLib{
     public static void Header(string nomeHeader){
-        Console.Clear();
+        LimparTela();
         var tamanhoText = nomeHeader.Length;
 
         var maxHifens = 50;
@@ -76,5 +76,17 @@ internal class TomagochiLib{
         Console.WriteLine($"Adeus, {nome}.");
         Thread.Sleep(3000);
         Environment.Exit(0);
+    }
+
+    public static void LimparTela(){
+        Console.Clear();
+    }
+
+    public static void PularLinha(){
+        Console.WriteLine(" ");
+    }
+
+    public static void Notificacao(string texto){
+        Console.WriteLine($"***** {texto} *****");
     }
 }

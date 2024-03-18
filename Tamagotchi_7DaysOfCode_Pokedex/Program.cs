@@ -1,6 +1,6 @@
 ﻿using Tomagochi.Menus;
 
-Console.Clear();
+TomagochiLib.LimparTela();
 Console.WriteLine(@"
 
 ================================================================================================

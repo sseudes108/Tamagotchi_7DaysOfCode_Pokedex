@@ -1,4 +1,6 @@
-﻿namespace Tomagochi.Menus;
+﻿using System.Xml.Schema;
+
+namespace Tomagochi.Menus;
 internal class MainMenu{
     static string? _nome;
     public static void Show(string nome){
@@ -25,6 +27,24 @@ internal class MainMenu{
             break;
 
             case 2:
+                if(Mascotes.mascotes.Count != 0){
+                    TomagochiLib.LimparTela();
+                    
+                    var index = 0;
+                    foreach(var mascote in Mascotes.mascotes){
+                        Console.WriteLine($"{index + 1} - {TomagochiLib.TitleCase(mascote.Name)}");
+                        index++;
+                    }
+                    TomagochiLib.Linha();
+                    
+                    Console.WriteLine($"{_nome}, selecione o mascote...");
+                    var selected = TomagochiLib.ReceberSelecao();
+                    MenuMascotes.Show(Mascotes.mascotes[selected - 1], _nome);
+                }else{
+                    TomagochiLib.Notificacao("Você não tem nenhum mascote");
+                    TomagochiLib.RetornarAoMenuInicial(_nome);
+                }
+
             break;
 
             case 3:
