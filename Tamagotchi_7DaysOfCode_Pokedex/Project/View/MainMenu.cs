@@ -23,7 +23,7 @@ internal class MainMenu{
 
         switch(selecao){
             case 1:
-                Adotar.Show(_nome);
+                MenuAdocao.Show(_nome);
             break;
 
             case 2:

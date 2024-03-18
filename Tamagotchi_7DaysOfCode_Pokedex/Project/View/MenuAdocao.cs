@@ -2,7 +2,7 @@ using Tomagochi.Model;
 
 namespace Tomagochi.Menus;
 
-internal class Adotar{
+internal class MenuAdocao{
     static string? _nome;
     static string? _pokemon;
     public static void Show(string nome){
