@@ -1,4 +1,8 @@
-﻿using Tomagochi.Menus;
+﻿using AutoMapper;
+using Tamagotchi_7DaysOfCode_Pokedex.Project.Model;
+using Tomagochi;
+using Tomagochi.Menus;
+using Tomagochi.Model;
 
 TomagochiLib.LimparTela();
 Console.WriteLine(@"

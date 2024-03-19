@@ -1,4 +1,5 @@
 using System.Globalization;
+using System.Reflection.Metadata;
 
 namespace Tomagochi.Menus;
 
@@ -56,8 +57,12 @@ internal class TomagochiLib{
     }
     
     public static int ReceberSelecao(){
-        var input = Console.ReadLine();
-        int.TryParse(input.ToString(), out int result);
+        int result;
+        bool valid;
+        do{
+            var input = Console.ReadLine();
+            valid = int.TryParse(input.ToString(), out result);
+        } while (!valid);
         return result;
     }
 

@@ -48,7 +48,7 @@ internal class Dex{
             }
 
             //Se não for a ultima habilidade adiciona uma virgula
-            if(hab.Type.Name != pokemon.Types[pokemon.Types.Count()-1].Type.Name){
+            if(hab.Type.Name != pokemon.Types[pokemon.Types.Length - 1].Type.Name){
                 Console.Write($", ");
             }
         }
@@ -75,7 +75,7 @@ internal class Dex{
             }
 
             //Se não for a ultima habilidade adiciona uma virgula
-            if(hab.Ability.Name != pokemon.Abilities[pokemon.Abilities.Count()-1].Ability.Name){
+            if(hab.Ability.Name != pokemon.Abilities[pokemon.Abilities.Length - 1].Ability.Name){
                 Console.Write($", ");
             }
         }
