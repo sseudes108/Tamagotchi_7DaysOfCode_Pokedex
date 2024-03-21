@@ -13,7 +13,7 @@ namespace Tamagotchi_7DaysOfCode_Pokedex.Project.Model{
 
     }
 
-    /*  //Mapper Configuration Example (Sem uso no projeto, o classe pokemon já consegue se comportar como a classe que seria o resultado desse     mapeamento//
+    /*  //Mapper Configuration Example (Sem uso no projeto, o classe pokemon já consegue se comportar como a classe que seria o resultado desse mapeamento//
      *  
         Pokemon poke = Dex.PegarPokemonInfo("abra");
 
